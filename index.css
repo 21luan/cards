@@ -1,0 +1,78 @@
+*{margin: 0%;padding: 0; font-family: 'Times New Roman', Times, serif; font-size: 1,8vw;}
+
+.cabecalho-container{
+    background: pink;
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 0.1mm;
+    padding-top: 1cm;
+}
+
+.button{
+    margin-bottom: 40px; 
+    margin-top: 12px; 
+}
+
+button{
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+body{
+    background: darkcyan;
+}
+
+@media(min-width: 560px){
+#mudaLayout{
+    display: inline-block;
+}
+
+.card{
+    background: greenyellow;
+    margin: 19px;
+    padding: 19px;
+    display: inline-block;
+    width: 190px;
+    box-sizing: border-box;
+    text-align: left;
+    flex-grow: 1;
+    flex-basis: 190px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.199);  
+}
+}
+.mural{
+    padding: 0% 10%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 3cm;
+}
+
+footer{
+    background: black;
+    color: aliceblue;
+    margin-top: 10%;
+    padding: 1mm;
+    text-align: center;
+    font-size:1rem;
+}
+
+img{
+    max-width: 10em;
+    border-radius: 5% 5% 3% 3%;
+    
+}
+
+.nome{
+    
+    padding-bottom: 1cm;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
